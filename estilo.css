@@ -1,0 +1,39 @@
+.titulo{
+	color: black;
+	line-height: 20px;
+	text-align: center;
+}
+
+.botao{
+	color: black;
+	line-height: 20px;
+	text-align: center;
+	font-weight:bold;
+}
+.perfil{
+text-align: center;
+}
+
+.corAzul{
+	font-size: 20px;
+	color: rgba(200,100,250,1);
+	line-height: 30px;
+
+}
+.corAmarela{
+	font-size: 20px;
+	color: yellow;
+	line-height: 30px;
+}
+.Baiano{
+	position: center;
+}
+.corpo{
+	background-color: lightblue;
+	
+}
+.a{
+	width: 30px;
+	height: 30px;
+	position: center;
+}
