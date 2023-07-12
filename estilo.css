@@ -1,39 +1,95 @@
-.titulo{
-	color: black;
-	line-height: 20px;
+/* Reset de estilos para remover margens e espaçamentos padrão */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  }
+  
+  /* Estilos globais para o corpo do documento */
+  body {
+	font-family: Arial, sans-serif;
+	background-color: #f2f2f2;
+	color: #333333;
+
+  }
+  
+  .container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 30px;
+  }
+  
+  h1 {
 	text-align: center;
-}
-
-.botao{
-	color: black;
-	line-height: 20px;
+	margin-bottom: 60px;
+	margin-top: 20px;
+  }
+  
+  h3 {
+	margin-top: 30px;
+  }
+  
+  ul {
+	list-style-type: none;
+	margin-left: 20px;
+  }
+  
+  li {
+	margin-bottom: 10px;
+  }
+  
+  .perfil {
 	text-align: center;
-	font-weight:bold;
-}
-.perfil{
-text-align: center;
-}
-
-.corAzul{
-	font-size: 20px;
-	color: rgba(200,100,250,1);
-	line-height: 30px;
-
-}
-.corAmarela{
-	font-size: 20px;
-	color: yellow;
-	line-height: 30px;
-}
-.Baiano{
-	position: center;
-}
-.corpo{
-	background-color: lightblue;
-	
-}
-.a{
+	margin-bottom: 30px;
+  }
+  
+  .perfil img {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+  }
+  
+  .botao {
+	text-align: center;
+	margin-top: 20px;
+  }
+  
+  .botao a {
+	margin-right: 10px;
+  }
+  
+  .botao img {
 	width: 30px;
 	height: 30px;
-	position: center;
-}
+	opacity: 0.7;
+	transition: opacity 0.3s ease-in-out;
+  }
+  
+  .botao img:hover {
+	opacity: 1;
+  }
+  
+  .corAzul {
+	color: rgba(200, 100, 250, 1);
+  }
+  
+  .corAmarela {
+	color: yellow;
+  }
+  
+  .corpo {
+	background-color: rgb(24, 109, 132);
+  }
+  
+  .a {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	margin-right: 10px;
+	opacity: 0.7;
+	transition: opacity 0.3s ease-in-out;
+  }
+  
+  .a:hover {
+	opacity: 1;
+  }
